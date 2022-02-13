@@ -1,0 +1,116 @@
+body {
+	background-color: grey;
+	color: white;
+	font-family: Courier;
+	font-size: 40px;
+	line-height: 2.5;
+	letter-spacing: 10px;
+	font-weight: lighter;
+	text-align: center;
+}
+
+#liz {
+	size: 400px
+}
+h1 {
+	color: white;
+	font-family: Courier;
+	font-weight: 200;
+	letter-spacing: 5px;
+	font-size: 80px;
+}
+
+h2 {
+	color: white ;
+	font-family: Courier;
+	font-weight: 200;
+	letter-spacing: 5px;
+	font-size: 80px;
+}
+
+a{
+	text-decoration: none;
+	color: grey;
+	size: 90px;
+
+}
+
+a:hover {
+	color: slategrey;
+li 
+}
+	#Food {
+	width: 400px;
+	}
+	#University {
+	width: 400px;
+	}
+	#Travelling {
+	width: 400px;
+	}
+
+#banner h1{
+	color: white;
+}
+
+.container {
+	width: 1700px;
+	margin: 10px auto;
+}
+
+.box-white{
+	background-color: pink ;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 1.0);
+	border-radius: 14px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.btn-blue{
+	background-color: grey;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 14px;
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline ;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 50px;
+
+}
+#introduction p {
+	margin-bottom: 60px;
+
+}
+
+#Food p {
+	margin-bottom: 60px;
+}
+
+#University p {
+	margin-bottom: 60px;
+}
+
+#Travelling p {
+	margin-bottom: 60px;
+}
+
+  @media (max-width: 1500px) {
+  .container {
+		width: 1000px;
+   }
+   @media (max-width: 700px) {
+  .container {
+		width: 600px;
+	}
+  @media (max-width: 500px) {
+  .container {
+		width: 400px;
